@@ -1,0 +1,50 @@
+
+
+#hh{
+	text-align: center;
+}
+div{
+	line-height: 1px;
+}
+
+.ligne{
+	display: flex;
+	flex-direction: row;
+}
+.ligne:after{
+	content: "";
+	flex: 1 1;
+	border-bottom: 4px solid #000;
+	margin: auto;
+}
+#center{
+	text-align: center;
+}
+table{
+	border: 2px solid black;
+}
+th{
+	border: 1px solid black;
+}
+td{
+	border: 1px solid black;
+}
+#tab{
+	margin-top: 80px;
+}
+nav ul {
+    list-style-type: none;
+    float: left;
+    width: 13%;
+    text-align: center;
+    position: relative;
+ }
+ nav{
+  margin-top: 100px;
+ }
+ nav ul li{
+ 	margin-top: 10px;
+ }
+ li:first-child{
+ 	margin-top: 0px;
+ }
